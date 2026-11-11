@@ -19,8 +19,7 @@
         },
         "sdkVersion": "3",
         "targetPlatforms": [
-            "emery",
-            "gabbro"
+            "emery"
         ],
         "usesPermissions": [
             "Health"
