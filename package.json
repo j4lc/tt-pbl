@@ -1,0 +1,34 @@
+{
+    "author": "None",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "transtime-hr",
+    "pebble": {
+        "capabilities": [
+            "health"
+        ],
+        "displayName": "TransTime HR",
+        "enableMultiJS": true,
+        "manifestVersion": 2,
+        "messageKeys": [],
+        "projectType": "moddable",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "gabbro"
+        ],
+        "usesPermissions": [
+            "Health"
+        ],
+        "uuid": "d2fd5ab3-ea00-4201-a8a1-9f45a10c0faf",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
