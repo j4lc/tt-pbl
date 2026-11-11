@@ -10,6 +10,7 @@ cache:
     - ~/.local/share/uv/tools/
 
 build:
+  stage: build
   before_script:
     - uv tool install pebble-tool
     - pebble sdk install latest
