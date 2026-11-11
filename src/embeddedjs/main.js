@@ -150,7 +150,7 @@ function draw(now) {
 
     const heartRate = Health.metric.get("heart rate");
     render.drawText("HR", fontSmall, DIM, X, Y_HR);
-    render.drawText(heartRate, fontSmall, BLUE, SEG_X, Y_HR);
+    render.drawText(heartRate, fontSmall, WHITE, SEG_X, Y_HR);
 
     render.end();
 }
